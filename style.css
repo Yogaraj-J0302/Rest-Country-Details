@@ -1,26 +1,14 @@
-body{
-margin:0;
-padding:0;
+*{
+    margin:0;
+    padding:0px;
 }
-
-.main{
-padding:20px;
-border:2px solid black;
-width:50%;
-margin:auto;
-margin-top:30px;
-
-box-sizing:border-box;
-
+#country{
+    text-align: center;
+    font-weight:bold;
+    font-size:18px;
 }
-
-.heading{
-font-position:center;
-color:red;
-display:flex;
-justify-content:center;
-}
-.genderlb{
-margin-right:20px;
-font-size:17px;
+#region,#capital{
+    align-items:center;
+    margin-top:10px;
+    font-weight:bold;
 }
