@@ -8,7 +8,22 @@
     font-size:18px;
 }
 #region,#capital{
-    align-items:center;
     margin-top:10px;
     font-weight:bold;
+}
+#row{
+    background-color:rgb(37, 39, 29);
+    padding:10px;
+}
+#col{
+    padding:20px;
+}
+#img{
+    height:130px;
+    width:200px;
+    display:flex;
+    align-self:center;
+}
+#contentBody{
+align-self:center;
 }

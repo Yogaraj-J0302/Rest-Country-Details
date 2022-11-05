@@ -5,6 +5,7 @@ return div1;
 }
 function colCreate(conName,imgsrc,cap,reg){
 let col1=divCreate("col-lg-4 com-sm-12");
+col1.setAttribute("id","col");
 let card=divCreate("card");
 let cardHeader=divCreate("card-header text-white bg-dark border-success");
 cardHeader.setAttribute("id","country");
@@ -13,6 +14,7 @@ let cardBody=divCreate("card-body");
 cardBody.setAttribute("id","contentBody");
 let img1=document.createElement("img");
 img1.className="card-img-top";
+img1.setAttribute("id","img");
 img1.setAttribute("src",imgsrc)
 let title1=divCreate("card-title");
 title1.setAttribute("id","capital");
@@ -27,6 +29,7 @@ return col1;
 }
 let container=divCreate("container");
 let row=divCreate("row");
+row.setAttribute("id","row");
 let countriesListURL="https://restcountries.com/v3.1/all";
 let countryList=fetch(countriesListURL);
 countryList.then((data)=>data.json()).then((data1)=>{
